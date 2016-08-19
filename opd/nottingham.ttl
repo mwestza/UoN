@@ -1,0 +1,100 @@
+# built by hand
+# owned by the UoN External Relations Web Team: web@nottingham.ac.uk
+
+@prefix foaf:    <http://xmlns.com/foaf/0.1/>.
+@prefix oo:      <http://purl.org/openorg/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#>.
+@prefix org:     <http://www.w3.org/ns/org#>.
+@prefix xtypes:  <http://purl.org/xtypes/>.
+@prefix lyou:    <http://purl.org/linkingyou/>.
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#>.
+@prefix aiiso:   <http://purl.org/vocab/aiiso/schema#> .
+
+<> a oo:OrganizationProfileDocument ;
+        dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+        foaf:primaryTopic <http://id.nottingham.ac.uk/> .
+
+<http://id.nottingham.ac.uk/>
+        a org:FormalOrganization ;
+        a aiiso:Institution ;
+        skos:prefLabel "The University of Nottingham" ;
+        skos:hiddenLabel "Nottingham University" ;
+        vcard:sortLabel "Nottingham, The University of" ;
+        foaf:phone <tel:+441159515151> ;
+     	foaf:mbox <mailto:web@nottingham.ac.uk> ;
+        foaf:logo <http://www.nottingham.ac.uk/SiteElements/Images/Base/logo.png> ;
+        foaf:homepage <http://www.nottingham.ac.uk/> ;
+        foaf:account <https://www.facebook.com/TheUniofNottingham> ;
+        foaf:account <https://www.flickr.com/photos/uonottingham/> ;
+        foaf:account <https://plus.google.com/106379961188375567685/> ;
+        foaf:account <http://instagram.com/uniofnottingham/> ;
+        foaf:account <http://www.linkedin.com/company/university-of-nottingham/> ;
+        foaf:account <http://www.pinterest.com/uniofnotts/> ;
+        foaf:account <https://twitter.com/UniofNottingham> ;
+        foaf:account <http://vimeo.com/universityofnottingham> ;
+        foaf:account <http://vk.com/uniofnottingham> ;
+        foaf:account <http://www.weibo.com/uoneao> ;
+        foaf:account <https://www.youtube.com/user/nottmuniversity> ;
+        foaf:account <http://uniofnottingham.tumblr.com/> ;
+        owl:sameAs <http://id.learning-provider.data.ac.uk/ukprn/10007154> ;
+        owl:sameAs <http://dbpedia.org/resource/University_of_Nottingham> .
+
+<https://www.facebook.com/TheUniofNottingham> a foaf:OnlineAccount ;
+        foaf:accountName "TheUniofNottingham" ;
+        foaf:accountServiceHomepage <https://www.facebook.com/> .
+
+<https://www.flickr.com/photos/uonottingham/> a foaf:OnlineAccount ;
+        foaf:accountName "uonottingham" ;
+        foaf:accountServiceHomepage <https://www.flickr.com/> .
+
+<https://plus.google.com/106379961188375567685/> a foaf:OnlineAccount ;
+        foaf:accountName "106379961188375567685" ;
+        foaf:accountServiceHomepage <https://plus.google.com/> .
+
+<http://instagram.com/uniofnottingham/> a foaf:OnlineAccount ;
+        foaf:accountName "uniofnottingham" ;
+        foaf:accountServiceHomepage <http://instagram.com/> .
+
+<http://www.linkedin.com/company/university-of-nottingham/> a foaf:OnlineAccount ;
+        foaf:accountName "university-of-nottingham" ;
+        foaf:accountServiceHomepage <http://www.linkedin.com/> .
+
+<http://www.pinterest.com/uniofnotts/> a foaf:OnlineAccount ;
+        foaf:accountName "uniofnotts" ;
+        foaf:accountServiceHomepage <http://www.pinterest.com/> .
+
+<https://twitter.com/UniofNottingham> a foaf:OnlineAccount ;
+        foaf:accountName "UniofNottingham" ;
+        foaf:accountServiceHomepage <https://twitter.com/> .
+
+<http://vimeo.com/universityofnottingham> a foaf:OnlineAccount ;
+        foaf:accountName "universityofnottingham" ;
+        foaf:accountServiceHomepage <http://vimeo.com/> .
+
+<http://vk.com/uniofnottingham> a foaf:OnlineAccount ;
+        foaf:accountName "uniofnottingham" ;
+        foaf:accountServiceHomepage <http://vk.com/> .
+
+<http://www.weibo.com/uoneao> a foaf:OnlineAccount ;
+        foaf:accountName "uoneao" ;
+        foaf:accountServiceHomepage <http://www.weibo.com/> .
+
+<https://www.youtube.com/user/nottmuniversity> a foaf:OnlineAccount ;
+        foaf:accountName "nottmuniversity" ;
+        foaf:accountServiceHomepage <https://www.youtube.com/> .
+
+<http://uniofnottingham.tumblr.com/> a foaf:OnlineAccount ;
+        foaf:accountName "uniofnottingham" ;
+        foaf:accountServiceHomepage <https://tumblr.com/> .
+
+<http://equipment.nottingham.ac.uk/api/public/items.json>
+        oo:organization <http://id.nottingham.ac.uk/> ;
+        oo:contact <mailto:kitcatalogue@nottingham.ac.uk> ;
+        oo:corrections <mailto:kitcatalogue@nottingham.ac.uk> ;
+        dcterms:subject <http://purl.org/openorg/theme/facilities> ;
+        dcterms:subject <http://purl.org/openorg/theme/equipment> ;
+        dcterms:conformsTo <http://equipment.data.ac.uk/kitcat-items-json> ;
+        dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/> .
+

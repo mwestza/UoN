@@ -89,12 +89,12 @@
         foaf:accountName "uniofnottingham" ;
         foaf:accountServiceHomepage <https://tumblr.com/> .
 
-<http://equipment.nottingham.ac.uk/api/public/items.json>
+<https://equipment.nottingham.ac.uk/api/public/items.json>
         oo:organization <http://id.nottingham.ac.uk/> ;
         oo:contact <mailto:kitcatalogue@nottingham.ac.uk> ;
         oo:corrections <mailto:kitcatalogue@nottingham.ac.uk> ;
         dcterms:subject <http://purl.org/openorg/theme/facilities> ;
         dcterms:subject <http://purl.org/openorg/theme/equipment> ;
-        dcterms:conformsTo <http://equipment.data.ac.uk/kitcat-items-json> ;
+        dcterms:conformsTo <https://equipment.data.ac.uk/kitcat-items-json> ;
         dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/> .
 
